@@ -188,7 +188,7 @@ __ESET Detection:__ PowerShell/Spy.Agent.TA trojan
 
 # Detection and hunting    
 
-__Microsoft Defender / Sentinel (KQL):__    
+__(KQL):__    
 
 ```kql
 // Office spawning encoded PowerShell
