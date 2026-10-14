@@ -49,7 +49,7 @@ __Document metadata (small but useful things):__
 
 - Created: 2024-02-20, last printed: 2024-03-12, last modified: 2026-09-25. Author fields are empty.    
 - The workbook carries a Microsoft Purview (MIP) sensitivity label, tenant `43a7b066-fe01-43db-b0ea-a9c1f1a18fc5`. Together with the 2024 dates, this looks like a real document from some organisation that was taken and weaponised later. Worth a pivot if you hunt for related files.    
-- The Excel that saved it runs in Russian: `Листы` in app.xml, VBA module names `ЭтаКнига`, `Лист1`, `Лист7` (these are the default Russian names for ThisWorkbook / Sheet1).    
+- The Excel that saved it runs in cirilica: `Листы` in app.xml, VBA module names `ЭтаКнига`, `Лист1`, `Лист7` (these are the default Russian names for ThisWorkbook / Sheet1).    
 
 __Where the payload is hidden__    
 
