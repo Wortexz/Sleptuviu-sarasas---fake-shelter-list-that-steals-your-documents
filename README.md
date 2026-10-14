@@ -15,7 +15,7 @@ __But it is a perfect example how a "clean" sandbox report can lie to you.__
 
 We submitted the sample to all the usual places. Every single sandbox showed the same thing: Excel opens, macro starts, error, nothing else. No child process, no network, no files. On the real endpoints where the file was opened, EDR telemetry was also clean. Easy to close as "broken sample / FP" and move on.    
 
-Then I changed the locale of my analysis VM to __uk-UA__ and it ran immediately. Same on Recorded Future Triage, which has `-uk` Windows images: score 10/10, PowerShell, uploads to WebDAV.    
+Then I changed the locale of my analysis VM to __uk-UA__ and it ran immediately. Same on Triage, which has `-uk` Windows images: score 10/10, PowerShell, uploads to WebDAV.    
 
 So what's going on? Let's begin...    
 
