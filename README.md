@@ -218,7 +218,7 @@ rule Sleptuviu_Sarasas_HiddenCell_PowerShell
 {
     meta:
         description = "PowerShell WebDAV document stealer hidden in xlsm cells (scan unpacked OOXML, e.g. xl/sharedStrings.xml)"
-        author = "Lukas Apynis"
+        author = "Wortexz"
         date = "2026-10-13"
         hash = "128aad8cd1ec33907a77acf9b62c88ca3bfa07562815308821beef160d9ddc85"
     strings:
