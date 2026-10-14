@@ -123,7 +123,7 @@ I don't paste the decoded script here (AV will be unhappy), but here is what it 
 
 Some notes:    
 
-- Comments inside the script are in __Ukrainian__. Office is in Russian, lure is in Lithuanian. I'm not attributing anything from that, language artefacts are too easy to fake.    
+- Comments inside the script are in __Ukrainian__. MS Office is in Russian, lure is in Lithuanian. I'm not attributing anything from that, language artefacts are too easy to fake.    
 - __No persistence.__ It lives while that `powershell.exe` lives. Reboot or logoff kills it. Every time the victim opens the "shelter list" again, it starts again.    
 - It's loud: one HTTP PUT per file, one by one, with a 1900 second timeout. On a file server mapped as a network drive this will push a lot of traffic.    
 - The account name `pred1` makes me think there may be `pred2`, `pred3`... Worth checking proxy logs for `webdav-*.alwaysdata.net` in general, not only this one.    
