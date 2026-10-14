@@ -236,7 +236,7 @@ rule Sleptuviu_Sarasas_VBA_Project
 {
     meta:
         description = "vbaProject.bin: Cyrillic (cp1251) sheet name lookup + hidden cell read + WScript.Shell"
-        author = "Lukas Apynis"
+        author = "Wortexz"
         date = "2026-10-13"
         hash = "55704d17d5f05019b5f616b89f8ebb0aebf7dbb38433f8b231a9c8219600c17d"
     strings:
