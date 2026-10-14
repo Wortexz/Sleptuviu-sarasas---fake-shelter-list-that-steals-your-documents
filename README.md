@@ -102,7 +102,7 @@ There is no sheet called `Ëèñò1`, so `Sheets()` throws error 9 on the very f
 
 __So the "target" is Lithuanian, but on a normal Lithuanian PC (cp1257) the malware does not work.__ It only works where the system locale is Cyrillic. In Lithuania that is not rare at all: some of companies and home users run Russian system locale (not so popular but happens).    
 
-Is it a deliberate geofence? I don't think so. It looks more like the author built and tested the file on a Cyrillic machine, it worked for him, and he never tested on a "normal" one. But the effect is the same as a very effective anti-sandbox check, and I'm sure somebody will copy this trick on purpose.    
+Is it a deliberate geofence? I don't think so. It looks more like the author built and tested the file on a Cyrillic machine, it worked for him, and he never tested on a other localizations. But the effect is the same as a very effective anti-sandbox check, and I'm sure somebody will copy this trick on purpose.    
 
 __Lesson for analysts:__ if a macro sample "does nothing" and you see a non-ASCII sheet/module name in the VBA, check PROJECTCODEPAGE and re-run with a matching system locale (Region → Administrative → Change system locale). Or just decode the cells statically, no detonation needed.    
 
