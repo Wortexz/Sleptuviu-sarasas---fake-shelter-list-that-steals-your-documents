@@ -100,7 +100,7 @@ When Excel loads the project, those bytes are turned back into text using the __
 
 There is no sheet called `Ëèñò1`, so `Sheets()` throws error 9 on the very first line. Execution stops __before__ `CreateObject("WScript.Shell")`. No process creation, no network, no file write = nothing for a sandbox or EDR to catch.    
 
-__So the "target" is Lithuanian, but on a normal Lithuanian PC (cp1257) the malware does not work.__ It only works where the system locale is Cyrillic. In Lithuania that is not rare at all: plenty of companies and home users run Russian system locale for old accounting software and similar.    
+__So the "target" is Lithuanian, but on a normal Lithuanian PC (cp1257) the malware does not work.__ It only works where the system locale is Cyrillic. In Lithuania that is not rare at all: some of companies and home users run Russian system locale (not so popular but happens).    
 
 Is it a deliberate geofence? I don't think so. It looks more like the author built and tested the file on a Cyrillic machine, it worked for him, and he never tested on a "normal" one. But the effect is the same as a very effective anti-sandbox check, and I'm sure somebody will copy this trick on purpose.    
 
