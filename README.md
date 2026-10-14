@@ -153,7 +153,7 @@ __Where the files go:__
 
 ![Where do the files go](img/stolen_where_to.png)    
 
-# Malware in action (Triage, uk locale)    
+# Malware in action (Triage, locale)    
 
 Platforms: `win10v2004-20260911-uk` and `win11ltsc2024-20260911-uk`. Score 10/10.    
 
